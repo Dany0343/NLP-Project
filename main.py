@@ -12,6 +12,8 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 import os
 
+load_dotenv()
+
 # Configuración de la página
 st.set_page_config(page_title="RAG Chatbot", page_icon="🤖", layout="wide")
 st.title("RAG Chatbot con Sentence Bert, Langchain")
