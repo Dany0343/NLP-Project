@@ -9,6 +9,7 @@ from langchain_community.chat_models import ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
+from dotenv import load_dotenv
 
 # Configuración de la página
 st.set_page_config(page_title="RAG Chatbot", page_icon="🤖", layout="wide")
@@ -27,7 +28,7 @@ def load_and_process_data(csv_path):
     return vectorstore, embeddings
 
 # Cargar y procesar el CSV al inicio
-csv_path = "./data_corpus.csv"  # Reemplaza esto con la ruta real a tu CSV
+csv_path = "./data_corpus.csv" 
 vectorstore, embeddings_model = load_and_process_data(csv_path)
 
 # Inicializar el modelo de lenguaje
