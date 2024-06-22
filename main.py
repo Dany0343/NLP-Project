@@ -36,7 +36,7 @@ vectorstore, embeddings_model = load_and_process_data(csv_path)
 
 # Inicializar el modelo de lenguaje
 api_key = os.getenv('OPENAI_API_KEY')
-llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo", api_key=api_key)
+llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo", api_key=st.secrets["OPENAI_API_KEY"])
 
 # Configurar la memoria
 memory = ConversationBufferMemory(
