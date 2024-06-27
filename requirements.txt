@@ -110,6 +110,7 @@ Pygments==2.18.0
 pyparsing==3.1.2
 PyPika==0.48.9
 pyproject_hooks==1.1.0
+pysqlite-binary==0.5.1.3380300
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 python-multipart==0.0.9
@@ -162,4 +163,3 @@ websockets==12.0
 wrapt==1.16.0
 yarl==1.9.4
 zipp==3.19.2
-pysqlite-binary
