@@ -16,7 +16,7 @@ cachetools==5.3.3
 certifi==2024.6.2
 charset-normalizer==3.3.2
 chroma-hnswlib==0.7.3
-chromadb==0.5.3
+chromadb==0.4.17
 click==8.1.7
 coloredlogs==15.0.1
 contourpy==1.2.1
@@ -134,7 +134,7 @@ soupsieve==2.5
 SQLAlchemy==2.0.31
 stanza==1.8.2
 starlette==0.37.2
-streamlit==1.36.0
+streamlit==1.28.1
 sympy==1.12.1
 tenacity==8.4.1
 threadpoolctl==3.5.0
